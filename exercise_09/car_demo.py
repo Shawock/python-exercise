@@ -1,5 +1,5 @@
-from exercise_9.car import Car
-from exercise_9.car_electric import ElectronicCar
+from exercise_09.car import Car
+from exercise_09.car_electric import ElectronicCar
 
 car_1 = Car('Yiqi', 'da zhong', 2015)
 car_1.get_descriptive_name()
