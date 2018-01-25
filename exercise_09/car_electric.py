@@ -23,7 +23,6 @@ class Battery:
 
 class ElectronicCar(Car):
     def __init__(self, make, model, year):
-        super().__init__(make, model, year)
         self.length = 0
         self.battery = Battery()
 
